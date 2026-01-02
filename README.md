@@ -1,37 +1,37 @@
-# Keep Awake Scripts
+# 保持清醒脚本
 
-Windows VBS scripts to prevent system from going to sleep automatically.
+Windows VBS脚本，用于防止系统自动进入睡眠状态。
 
-## Scripts
+## 脚本说明
 
 ### 1. keep_awake.vbs
-- **Method**: Simulates Scroll Lock key press every minute
-- **Features**: 
-  - Prevents system sleep/hibernation
-  - Auto-stops at 18:05
-  - Error handling and logging
+- **工作方式**：每分钟模拟按下Scroll Lock键
+- **功能特点**：
+  - 防止系统睡眠/休眠
+  - 18:05自动停止
+  - 错误处理和日志记录
 
 ### 2. keep_awake_mouse.vbs
-- **Method**: Moves mouse cursor slightly every minute
-- **Features**:
-  - Same functionality as keyboard version
-  - Uses PowerShell to move mouse 1 pixel
-  - Hidden PowerShell window
+- **工作方式**：每分钟轻微移动鼠标指针
+- **功能特点**：
+  - 与键盘版本功能相同
+  - 使用PowerShell移动鼠标1像素
+  - 隐藏的PowerShell窗口
 
-## Usage
+## 使用方法
 
-1. **Double-click** the `.vbs` file to run
-2. Or use command line: `cscript "script_name.vbs"`
+1. **双击** `.vbs` 文件运行
+2. 或使用命令行：`cscript "script_name.vbs"`
 
-## Requirements
+## 系统要求
 
-- Windows operating system
-- PowerShell (for mouse version)
+- Windows操作系统
+- PowerShell（鼠标版本需要）
 
-## Auto-stop Time
+## 自动停止时间
 
-Both scripts automatically stop at **18:05** (6:05 PM) and display a notification.
+两个脚本都会在**18:05**（下午6:05）自动停止，并显示通知。
 
-## License
+## 许可证
 
-Free to use and modify.
+可自由使用和修改。
